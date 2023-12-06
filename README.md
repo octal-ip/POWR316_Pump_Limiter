@@ -3,6 +3,6 @@ This project provides PlatformIO code for building custom firmware for the SonOf
 
 The POWR316 contains an ESP32 with the 3.3v, GND, RX and TX pins all conveniently broken out to a standard 0.1" pin header on the PCB. The button is also connected to GPIO-0, so the serial bootloader can be easily accessed.
 
-## While I've not tested this, some sources say that the GND pin is not isolated from AC mains. For this reason, it's best NOT to connect the POWR316 to an AC source when uploading firmware through the pin headers. Provide an independent 3.3v power source while the POWR316 is open.
+#### While I've not tested this, some sources say that the GND pin is not isolated from AC mains. For this reason, it's best NOT to connect the POWR316 to an AC source when uploading firmware through the pin headers. Provide an independent 3.3v power source while the POWR316 is open.
 
 

@@ -9,7 +9,6 @@
   #include <WiFi.h>
   #include <ESPmDNS.h>
   #include <TelnetStream.h>
-  #include <PubSubClient.h>
   #include <ArduinoOTA.h>
 
   /*Edit this file to include the following details.
